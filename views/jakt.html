@@ -1,0 +1,55 @@
+{{#yield-styles}}
+  <script type='text/javascript' src='/js/default.js'></script>
+  <script type="text/javascript">var questions={{person}};</script>
+{{/yield-styles}}
+
+<div class='pop' style='display:block' id='start'><div class='popinner'>
+  <div id='tomte1'><img src='/gfx/tomte_03.png' /></div>
+  <h2>God jul {{person}}!</h2>
+  <h3>
+    Lös frågorna, skriv in svaren och klicka dig vidare.<br />
+    Tiden måste ticka ner till 0 innan du kan svara.
+    Lycka till!
+  </h3>
+  <p>&nbsp;</p>
+  <p><a href='javascript:start()' onfocus='this.blur()'>Starta jakten</a></p>
+</div></div>
+
+<div id="wrong" class="alert"><div>
+  <div id='tomte3'><img src='/gfx/tomte_02.png' /></div>
+  <h2>Buuu!!<br />Det var fel!</h2>
+  <h3>Försök igen!</h3>
+</div></div>
+
+<div id="dowait" class="alert"><div>
+  <div id='tomte3'><img src='/gfx/tomte_02.png' /></div>
+  <h2>Ånä...<br />Du kan inte svara förrän det tickat ner till 0.</h2>
+  <h3>Ta det bara lugnt...</h3>
+</div></div>
+
+<div id="right" class="alert"><div>
+  <div id='tomte4'><img src='/gfx/tomte_01.png' /></div>
+  <h2>Bravo!<br />Det var rätt!</h2>
+  <h3>Nu kommer nästa fråga.</h3>
+</div></div>
+
+<div id="final" class="alert"><div>
+  <div id='tomte6'><img src='/gfx/tomte_03.png' /></div>
+  <h2>Bravo!<br />Du har klarat hela skattjakten!<br />Nu ska du bara hitta skatten.</h2>
+  <h3 id="fintext"></h3>
+  <p>&nbsp;</p>
+  <h2>God jul!</h2>
+  <div id='tomte5'><img src='/gfx/tomte_01.png' /></div>
+</div></div>
+
+<div class='pop' id='pop'>
+  <div id="timer">120</div>
+  <div class='popinner'>
+    <h2></h2>
+    <h3></h3>
+    <p>Svar:&nbsp;<input id="answer" type='text' /></p>
+    <p><a href='javascript:answer()' onfocus='this.blur()'>Svara</a></p>
+    <div id='tomte2'><img src='/gfx/tomte_04_right.png' /></div>
+  </div>
+</div>
+

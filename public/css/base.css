@@ -1,0 +1,139 @@
+/****** General ******/
+
+body, td, input, textarea, select {
+  font-family:Helvetica, Arial, san-serif;
+  font-size: 12px;
+  line-height:16px;
+  margin:0;
+  padding:0;
+  color:#cc9933;
+}
+body {
+/*  background-image:url(../gfx/bg.jpg);*/
+  background-color:#fd6c6c;
+  background-repeat:repeat;
+  width:100%;
+}
+
+a:link, a:visited, a:active {
+  color: #ff0000;
+  text-decoration: none;
+  font-size:16px;
+  font-weight: bold;
+  outline:none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  font-size:16px;
+  font-weight: bold;
+}
+
+p {
+  margin:12px 0 12px 0;
+  font-size:16px;
+}
+
+h1 {
+  margin:0;
+  font-weight: bold;
+  font-size: 22px;
+  line-height:26px;
+}
+h2 {
+  margin: 0;
+  font-size: 36px;
+  line-height:40px;
+  font-weight: bold;
+}
+h3 {
+  margin:12px 0 0 0;
+  font-size:16px;
+  line-height:20px;
+  font-weight:bold;
+}
+h4 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height:16px;
+}
+h5, h6 {
+  margin: 0;
+  font-size: 12px;
+  line-height:14px;
+  font-weight:bold;
+}
+
+
+/***** Common classes *****/
+
+.clearfloat {
+  clear:both;
+  margin-top:-1px;
+  height:1px;
+  overflow:hidden;
+}
+
+
+#maindiv {
+  width:500px;
+  margin:0 auto;
+  background:#fff;
+}
+
+input {
+  background:none;
+  border:none;
+  color:#fff;
+  border-bottom:dotted 1px #fff;
+  width:200px;
+}
+
+.pop {
+  width:500px;
+  margin-top:80px;
+  position:absolute;
+  background-color:#000;
+  border:solid 6px #ff0000;
+  display:none;
+  border-radius:40px;
+  -moz-border-radius: 40px;
+  box-shadow:10px 10px 20px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.popinner {
+  margin:40px;
+  text-align:center;
+}
+#pop .popinner {
+  margin-top:10px;
+}
+
+.alert {
+  width:400px;
+  position:absolute;
+  background-color:#fff;
+  border:solid 6px #ff0000;
+  display:none;
+  margin-left:50px;
+  margin-top:100px;
+  z-index:1;
+}
+.alert div {
+  margin:40px;
+  text-align:center;
+}
+
+#final {
+  background-color:#000;
+}
+
+#timer {
+  height:10px;
+  text-align:right;
+  font-size:26px;
+  font-weight:bold;
+  padding:20px 20px 0 0;
+}
