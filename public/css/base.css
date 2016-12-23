@@ -33,6 +33,7 @@ a:hover {
 p {
   margin:12px 0 12px 0;
   font-size:16px;
+  line-height: 20px;
 }
 
 h1 {

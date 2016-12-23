@@ -36,20 +36,22 @@ var Selma = {
 };
 var Ella = {
   qa:[
-    { q:"Hur många tangenter finns det på pianot?", a:"88" },
-    { q:"Vad heter din yngste kusin?", a:"Nils" },
-    { q:"Hur många rutor finns det i Frejas päronmålning?", a:"42" },
-    { q:"Bra jobbat! Kolla i din cykelhjälm.<br /><br />Vad heter vår diskmaskin?", a:"Siemens" },
-    { q:"Hur många clementiner har vi?", a:"14" },
-    { q:"Vad heter pappas moster?", a:"Sigbritt" },
-    { q:"Vad heter madame i julkalendern?", a:"Boven" },
-    { q:"Hur många hasselnötter har vi?", a:"36" },
-    { q:"Bra jobbat! Kolla i skåpet med grytor.<br /><br />Hur mycket är 4*3?", a:"12" },
+    { q:"I vilken taktart går 'Hej tomtegubbar'?", a:"3/4" },
+    { q:"Vilket är sista uppslagsordet i band 17 i Nationalencyklopedin?", a:"Syremättnad" },
+    { q:"Vilket var mammas och pappas gamla telefonnummer?", a:"149735" },
+    { q:"Hur många invånare hade Jharkhand 2001?", a:"26945829" },
+    { q:"Vad heter författaren till artikeln Tizan i NE?", a:"Sven Sandström" },
     { q:"Vem är sötast i familjen?", a:"Pappa" },
-    { q:"Vad heter mammas jobb?", a:"Oatly" },
-    { q:"Vem har namnsdag den 12 december?", a:"Assar" }
+    { q:"Vad heter den första operan under bokstaven C i Bonniers musiklexikon?", a:"Carmen" },
+    { q:"Hur många hål finns det i varje platta i taket ovanför köksbordet?", a:"552" },
+    { q:"Vilken frukt liknar Ella?", a:"Banan" },
+    { q:"I vilken tonart går &qout;Days of wine and roses&quot;?", a:"F" },
+    { q:"Vad heter skalbagge i Wales?", a:"Chwilen" },
+    { q:"Hur många kors har E-dur?", a:"4" },
+    { q:"Vilken ton blir det om man suger i andra hålet på ett munspel?", a:"F" },
+    { q:"Hur många kcal innehåller 100ml vanlig Oatly?", a:"50" }
   ],
-  ft: "Kolla i mikron!"
+  ft: "Kolla i spegelgarderoben!"
 };
 
 
