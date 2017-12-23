@@ -1,3 +1,4 @@
+
 /****** General ******/
 
 body, td, input, textarea, select {
@@ -6,28 +7,20 @@ body, td, input, textarea, select {
   line-height:16px;
   margin:0;
   padding:0;
-  color:#cc9933;
+  color:#F0DB4D;
 }
 body {
-/*  background-image:url(../gfx/bg.jpg);*/
-  background-color:#fd6c6c;
-  background-repeat:repeat;
-  width:100%;
+  background:url(../gfx/background.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
-a:link, a:visited, a:active {
+a {
   color: #ff0000;
   text-decoration: none;
   font-size:16px;
   font-weight: bold;
   outline:none;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #fff;
-  font-size:16px;
-  font-weight: bold;
+  cursor:pointer;
 }
 
 p {
@@ -50,8 +43,8 @@ h2 {
 }
 h3 {
   margin:12px 0 0 0;
-  font-size:16px;
-  line-height:20px;
+  font-size:20px;
+  line-height:26px;
   font-weight:bold;
 }
 h4 {
@@ -70,19 +63,14 @@ h5, h6 {
 
 /***** Common classes *****/
 
-.clearfloat {
-  clear:both;
-  margin-top:-1px;
-  height:1px;
-  overflow:hidden;
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
 
-
-#maindiv {
-  width:500px;
-  margin:0 auto;
-  background:#fff;
-}
 
 input {
   background:none;
@@ -92,49 +80,60 @@ input {
   width:200px;
 }
 
+.contentarea {
+  position: relative;
+}
+
 .pop {
-  width:500px;
-  margin-top:80px;
+  width:90%;
+  max-width: 500px;
+  margin:5% auto 0 auto;
+  left:0;
+  right: 0;
   position:absolute;
-  background-color:#000;
-  border:solid 6px #ff0000;
+  background-color:#005919;
+  border:solid 6px #B30700;
   display:none;
-  border-radius:40px;
-  -moz-border-radius: 40px;
+  border-radius:20px;
   box-shadow:10px 10px 20px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 .popinner {
-  margin:40px;
-  text-align:center;
-}
-#pop .popinner {
-  margin-top:10px;
-}
-
-.alert {
-  width:400px;
-  position:absolute;
-  background-color:#fff;
-  border:solid 6px #ff0000;
-  display:none;
-  margin-left:50px;
-  margin-top:100px;
-  z-index:1;
-}
-.alert div {
-  margin:40px;
+  margin:8%;
   text-align:center;
 }
 
-#final {
-  background-color:#000;
+.pop.start {
+  display: block;
 }
 
-#timer {
-  height:10px;
-  text-align:right;
-  font-size:26px;
-  font-weight:bold;
-  padding:20px 20px 0 0;
+.pop.final {
+  background:url(../gfx/fireworks.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+a.button {
+  background:#B30700;
+  border-radius: 4px;
+  color:#F0DB4D;
+  padding:5px 10px; 
+  display: inline-block;
+}
+
+
+
+.clap {
+  display: none;
+  left:0;
+  right: 0;
+  margin:0 auto;
+  top:10%;
+  width:90%;
+  border:solid 3px #F0DB4D;
+  position: absolute;
+}
+.clap img {
+  width: 100%;
+  display: block;
 }
