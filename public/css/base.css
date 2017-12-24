@@ -77,7 +77,8 @@ input {
   border:none;
   color:#fff;
   border-bottom:dotted 1px #fff;
-  width:200px;
+  width:70%;
+  font-size: 130%;
 }
 
 .contentarea {
@@ -110,6 +111,10 @@ input {
 .pop.final {
   background:url(../gfx/fireworks.gif) no-repeat center center fixed;
   background-size: cover;
+}
+
+.pop.question .popinner img.qimg {
+  width: 90%;
 }
 
 

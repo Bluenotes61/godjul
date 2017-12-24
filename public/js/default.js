@@ -1,66 +1,51 @@
 $(function() {
 
-  var allquestions = {
-    Freja0 : {
-      qa:[
-        { q:"Vilket var mammas och pappas gamla telefonnummer?", a:"149735" },
-        { q:"Vad heter författaren till artikeln Osiris i NE?", a:"Jan Bergman" },
-        { q:"Vilken ugnstemperetur ska man ha då man lagar &quot;Nötstek i gryta&quot;?", a:"175" },
-        { q:"Bra jobbat! Kolla i skåpet under kaffebryggaren.<br /><br />Vilken krydda finns i O.P. Anderson förutom kummin och anis?", a:"Fänkål" },
-        { q:"Vilket beteckning har våra dammsugarpåsar?", a:"M50"},
-        { q:"Min lilla ponnys mule är mjuk som vad?", a:"Sammet" },
-        { q:"Hur många invånare hade Tamil Nadu 2001?", a:"62405679" },
-        { q:"Vad är kortnumret på Ellas Gerdahallkort?", a:"000310705" },
-        { q:"Bra jobbat! Kolla i skåpet med finglas vid köksbordet.<br /><br />Vem har skrivit det svenska förordet till boken om sköldpaddor i Jordens djur?", a:"Staffan Ulfstrand" },
-        { q:"Vad heter skalbagge i Wales?", a:"Chwilen" },
-        { q:"Hur många hål finns det i varje platta i taket ovanför köksbordet?", a:"600" },
-        { q:"Hur många kcal finns det i 100g O´boy?", a:"370" }
-      ],
-      ft: "Kolla i hallgarderoben!"
-    },
+   var allquestions = {
     Freja : {
       qa:[
-        { q:"Vilket var mammas och pappas gamla telefonnummer?", a:"149735" }
+        { q:"'Indien är ett _____ land'. Vad fattas?", a:"Förunderligt"},
+        { q:"Katet 1 = 3, Hypotenusa = 5, Katet 2 = ?", a:"4"},
+        { q:"Lös anagrammet (någon du känner): 'TJIBBER GULLREGN'", a:"BERTIL LJUNGBERG"},
+        { q:"Vad heter gitarrmodellen?", a:"Fender Stratocaster|Stratocaster", i:"/gfx/strata.jpg"},
+        { q:"Vilket år uruppfördes Nötknäpparen?", a:"1892"},
+        { q:"Lös anagrammet (librettist): 'BUSA JULRÖVEN'", a:"Björn Ulvaeus"},
+        { q:"På vilken LP finns Taxman?", a:"Revolver"},
+        { q:"Vem är på bilden?", a:"Emma Jhaveri", i:"/gfx/emma.jpg"},
+        { q:"Vem spelade Karl-Oskar i Utvandrarna (filmen)?", a:"Max von Sydow"},
+        { q:"Lös anagrammet (någon du känner): 'WIN MAJSKAKA'", a:"KAJSA WIKMAN"}
       ],
       ft: "Vi längtar till att du kommer hem!<br />Skatten hittar du på ditt bankkonto."
     },
     Selma : {
       qa:[
-        { q:"Vilket telefonnummer har Cecilia Br?", a:"120679" },
-        { q:"Vilket är sista uppslagsordet i band 17 i Nationalencyklopedin?", a:"Syremättnad" },
-        { q:"Vad heter en rödhake i Wales?", a:"Goch" },
-        { q:"Bra jobbat! Kolla under skötbordet.<br /><br />I vilket tonart går &quot;Goddag herr Gås&quot;", a:"F" },
-        { q:"Om du adderar 1000 med ett helt tal, blir resultatet mer, än om du skulle multiplicera 1000 med samma tal. Vilket är talet? ", a:"1" },
-        { q:"Hur många grader celsius är absoluta nollpunktern?", a:"-273" },
-        { q:"I vilken taktart går 'Hej tomtegubbar'?", a:"3/4" },
-        { q:"Vad heter författaren till artikeln Tizan i NE?", a:"Sven Sandström" },
-        { q:"Bra jobbat! Kolla under kopparbordet vid tv-soffan.<br /><br />Antal hjärtan på köksgardinen?", a:"55" },
-        { q:"Vad är huvudingrediensen i Osso Buco? ", a:"Kalvlägg" },
-        { q:"Vad är porter som man använder till porterstek?", a:"Öl" },
-        { q:"Vad heter den första operan under bokstaven C i Bonniers musiklexikon?", a:"Carmen" },
-        { q:"Hur många kcal finns det i 100g Kickup?", a:"4" },
-        { q:"Hur många invånare hade Jharkhand 2001?", a:"26945829" }
+        { q:"Katet 1 = 3, Hypotenusa = 5, Katet 2 = ?", a:"4"},
+        { q:"På vilken LP finns Taxman?", a:"Revolver"},
+        { q:"Lös anagrammet (namn på någon du känner): 'GLIDIG B NJURGREN'", a:"INGRID LJUNGBERG"},
+        { q:"Vem spelade Karl-Oskar i Utvandrarna (filmen)?", a:"Max von Sydow"},
+        { q:"Vem är på bilden?", a:"Arvid Hall", i:"/gfx/arvid.jpg"},
+        { q:"Lös anagrammet (librettist): 'BUSA JULRÖVEN'", a:"Björn Ulvaeus"},
+        { q:"Vad heter gitarrmodellen?", a:"Fender Stratocaster|Stratocaster", i:"/gfx/strata.jpg"},
+        { q:"Från vilket land kommer Toots?", a:"Belgien" },
+        { q:"Bilens lack den glänste. ____ blixtrade i dess nos. Vad fattas?", a:"Kromen" },
+        { q:"Lös anagrammet (namn på någon du känner): 'TRE TOPLESS BONDE'", a:"Petter Bodelsson"}
       ],
-      ft: "Kolla i ugnen!"
+      ft: "Kolla i skåpet med fintallrikar!<br >Berätta inte för din syster innan hon har hittat sin skatt!"
     },
+
     Ella : {
       qa:[
-        { q:"I vilken taktart går 'Hej tomtegubbar'?", a:"3/4" },
-        { q:"Vilket är sista uppslagsordet i band 17 i Nationalencyklopedin?", a:"Syremättnad" },
-        { q:"Vilket var mammas och pappas gamla telefonnummer?", a:"149735" },
-        { q:"Hur många invånare hade Jharkhand 2001?", a:"26945829" },
-        { q:"Vad heter författaren till artikeln Tizan i NE?", a:"Sven Sandström" },
-        { q:"Vem är sötast i familjen?", a:"Pappa" },
-        { q:"Vad heter den första operan under bokstaven C i Bonniers musiklexikon?", a:"Carmen" },
-        { q:"Hur många hål finns det i varje platta i taket ovanför köksbordet?", a:"552" },
-        { q:"Vilken frukt liknar Ella?", a:"Banan" },
-        { q:"I vilken tonart går &qout;Days of wine and roses&quot;?", a:"F" },
-        { q:"Vad heter skalbagge i Wales?", a:"Chwilen" },
-        { q:"Hur många kors har E-dur?", a:"4" },
-        { q:"Vilken ton blir det om man suger i andra hålet på ett munspel?", a:"F" },
-        { q:"Hur många kcal innehåller 100ml vanlig Oatly?", a:"50" }
+        { q:"I vilken världsdel ligger Liberia?", a:"Afrika"},
+        { q:"Vilka toner ingår i ett G7-ackord?", a:"GBDF"},
+        { q:"Lös anagrammet (namn på någon du känner): 'HELADE SLEM'", a:"SELMA EHLDE"},
+        { q:"Vad hette Beatles producent?", a:"George Martin"},
+        { q:"Vem är på bilden?", a:"Klara Kristiansson|Clara Kristiansson|Klara|Clara", i:"/gfx/Klara.jpg"},
+        { q:"Lös anagrammet (skrivit bl.a. musikal): 'SNEBEN SNORDYNA'", a:"Benny Andersson"},
+        { q:"Vad heter instrumentet?", a:"oboe", i:"/gfx/oboe.jpg"},
+        { q:"Vem har skrivit 'Village ghetto land'?", a:"Stevie Wonder"},
+        { q:"'Vakna vid underbar ____ av röster'. Vad saknas?", a:"Korus"},
+        { q:"Lös anagrammet (namn på någon du känner): 'BERRI LARVMAGE'", a:"Elvira Ramberg"}
       ],
-      ft: "Kolla i spegelgarderoben!"
+      ft: "Kolla i din trumpetväska!<br />Berätta inte för din syster innan hon har hittat sin skatt!"
     }
   };
 
@@ -81,10 +66,24 @@ $(function() {
     $(".pop.question .answer").val("");
     $('.pop.question h2').html("Fråga " + String(currq + 1) + ".");
     $('.pop.question h3').html(questions.qa[currq].q);
+    if (questions.qa[currq].i)
+      $('.pop.question img.qimg').attr("src", questions.qa[currq].i).show();
+    else
+      $('.pop.question img.qimg').hide();
+  }
+
+  function checkanswer(tryanswer, correctanswer) {
+    var ca = correctanswer.split('|');
+    var ta = tryanswer.toLowerCase().replace(/ /g, "");
+    var ok = false;
+    for (var i=0; !ok && i < ca.length; i++) {
+      ok = (ca[i].toLowerCase().replace(/ /g, "") == ta);
+    }
+    return ok;
   }
 
   function answer() {
-    if ($(".pop.question .answer").val().toLowerCase().replace(/ /g, "") == questions.qa[currq].a.toLowerCase().replace(/ /g, "")) {
+    if (checkanswer($(".pop.question .answer").val(), questions.qa[currq].a)) {
       $(".pop.question .clap").css("width", 0).show().animate({width:"90%"}, 1000);
       setTimeout(function(){
         if (currq == questions.qa.length-1) {
