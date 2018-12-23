@@ -46,6 +46,29 @@ $(function() {
         { q:"Lös anagrammet (namn på någon du känner): 'BERRI LARVMAGE'", a:"Elvira Ramberg"}
       ],
       ft: "Kolla i din trumpetväska!<br />Berätta inte för din syster innan hon har hittat sin skatt!"
+    },
+
+    Sofia0 : {
+      qa:[
+        { q:"Vad heter de olösliga fibrerna i havre?", a:"Betaglukaner"},
+        { q:"Vad heter Frejas sånglärare (för- och efternamn)?", a:"Kinga Szabadvary"},
+        { q:"Vem döljer sig här: Osten i Postern?", a:"Toni Petersson"},
+        { q:"Vad hette Magnus klassföreståndare på högstadiet", a:"Gösta Mjörnman"},
+        { q:"Vem döljer sig här: Wilma Lundbo Too?", a:"Malin Boultwood"},
+        { q:"Vad heter Selmas mattelärare?", a:"Jan Grzegorz"}
+      ],
+      ft: "Grattis! Du klarade det! :-) Presenten får du i TV-soffan!"
+    },
+    Sofia : {
+      qa:[
+        { q:"Vad heter de olösliga fibrerna i havre?", a:""},
+        { q:"Vad heter Frejas sånglärare (för- och efternamn)?", a:""},
+        { q:"Vem döljer sig här: Osten i Postern?", a:""},
+        { q:"Vad hette Magnus klassföreståndare på högstadiet", a:""},
+        { q:"Vem döljer sig här: Wilma Lundbo Too?", a:""},
+        { q:"Vad heter Selmas mattelärare?", a:""}
+      ],
+      ft: "Grattis! Du klarade det! :-) Presenten får du i TV-soffan!"
     }
   };
 
@@ -84,6 +107,7 @@ $(function() {
 
   function answer() {
     if (checkanswer($(".pop.question .answer").val(), questions.qa[currq].a)) {
+      $(".pop.question .clap img").attr('src', '/gfx/clap/clap' + (currq % 10) + '.gif')
       $(".pop.question .clap").css("width", 0).show().animate({width:"90%"}, 1000);
       setTimeout(function(){
         if (currq == questions.qa.length-1) {
