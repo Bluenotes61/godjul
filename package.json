@@ -18,12 +18,12 @@
     "debug": "~0.7.4",
     "hogan-express": "*",
     "method-override": "*",
-    "static":"*",
-    "express-session":"*",
-    "dateformat":"*",
+    "static": "*",
+    "express-session": "*",
+    "dateformat": "*",
     "mysql": "*",
     "date-format-lite": "*",
-    "cookie-parser":"*",
+    "cookie-parser": "*",
     "q": "*"
   },
   "devDependencies": {
