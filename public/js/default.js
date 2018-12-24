@@ -6,14 +6,14 @@ $(function() {
         { q:"Vad heter Selmas mattelärare (för- och efternamn)?", a:"Jan Grzegorz"},
         { q:"Vad heter Ellas NO-lärare?", a:"Christin Falkbrink"}
       ],
-      ft: "Sådärja! I källaren finns en liten familjepresent. Ta med dins systrar."
+      ft: "Sådärja! I kartongerna i källaren finns en liten familjepresent. Ta med dina systrar."
     },
     Selma : {
       qa:[
         { q:"Vad heter Frejas sånglärare (för- och efternamn)?", a:"Kinga Szabadvary"},
         { q:"Vad heter Ellas NO-lärare?", a:"Christin Falkbrink"}
       ],
-      ft: "Sådärja! I källaren finns en liten familjepresent. Ta med dins systrar."
+      ft: "Sådärja! I kartongerna i källaren finns en liten familjepresent. Ta med dina systrar."
     },
 
     Ella : {
@@ -21,7 +21,7 @@ $(function() {
         { q:"Vad heter Selmas mattelärare (för- och efternamn)?", a:"Jan Grzegorz"},
         { q:"Vad heter Frejas sånglärare (för- och efternamn)?", a:"Kinga Szabadvary"}
       ],
-      ft: "Sådärja! I källaren finns en liten familjepresent. Ta med dins systrar."
+      ft: "Sådärja! I kartongerna i källaren finns en liten familjepresent. Ta med dina systrar."
     },
 
     Sofia : {
