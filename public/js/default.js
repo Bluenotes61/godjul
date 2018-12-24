@@ -81,8 +81,7 @@ $(function() {
     for (var i=0; !ok && i < ca.length; i++) {
       ok = (ca[i].toLowerCase().replace(/ /g, "") == ta);
     }
-    //return ok;
-    return true;
+    return ok;
   }
 
   function answer() {
