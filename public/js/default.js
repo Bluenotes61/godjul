@@ -31,15 +31,19 @@ $(function() {
         { q:"Vem döljer sig här: Jovial N Bössnors?", a:"Lovisa Björnsson"},
         { q:"Vilka toner ingår i subdominantackordet i D-dur?", a:"GBD|GHD|G,B,D|G,H,D"},
         { q:"Vad hette Magnus klassföreståndare på högstadiet", a:"Gösta Mjörnman"},
-        { q:"Vem döljer sig här: Wilma Lundbo Too?", a:"Malin Boultwood"},
         { q:"Vad heter Selmas mattelärare (för- och efternamn)?", a:"Jan Grzegorz"},
-        { q:"Vad kan ersätta fosfat i havredryck?", a:"Omöjligt|Inget|Citrat"},
         { q:"I vilken stad bor man på 'The peacock'?", a:"Bath"},
+        { q:"Hur många appar har Ella?", a:"110"},
+        { q:"Vem döljer sig här: Wilma Lundbo Too?", a:"Malin Boultwood"},
         { q:"Vad heter 'stå på tå' på dansspråk?", a:"Releve"},
         { q:"Var är bilden tagen?", a:"Skånes djurpark", i:"/gfx/skanes.jpg"},
         { q:"Var ligger Gallup?", a:"New Mexico"},
+        { q:"Vad kan ersätta fosfat i havredryck?", a:"Omöjligt|Inget|Citrat"},
         { q:"Vem döljer sig här: Osten i Postern?", a:"Toni Petersson"},
+        { q:"Vilka sitter brevid Selma i Koritsia?", a:"Mathilde och Fanny|Fanny och Mathilde|Mathilde Fanny"},
         { q:"Hur många byte ingår i en kilobyte?", a:"1024"},
+        { q:"Med vilken ordaccent uttalas senap?", a:"Akut"},
+        { q:"Vilket är Frejas skåpnummer på Kulturama?", a:"4072"},
         { q:"Vilka ventiler trycker man ner för att spela låga D på trumpet?", a:"13|1,3|1, 3|1 och 3"},
       ],
       ft: "Grattis! Du klarade det! :-) Skatten finns i TV-soffan!"
@@ -76,7 +80,8 @@ $(function() {
     for (var i=0; !ok && i < ca.length; i++) {
       ok = (ca[i].toLowerCase().replace(/ /g, "") == ta);
     }
-    return ok;
+    //return ok;
+    return true;
   }
 
   function answer() {
