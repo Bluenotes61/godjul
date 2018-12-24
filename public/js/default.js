@@ -4,14 +4,14 @@ $(function() {
     Freja : {
       qa:[
         { q:"Vad heter Selmas mattelärare (för- och efternamn)?", a:"Jan Grzegorz"},
-        { q:"Fråga 2?", a:""}
+        { q:"Vad heter Ellas NO-lärare?", a:"Christin Falkbrink"}
       ],
       ft: "Sådärja! Gå ner med dina systrar i källaren"
     },
     Selma : {
       qa:[
         { q:"Vad heter Frejas sånglärare (för- och efternamn)?", a:"Kinga Szabadvary"},
-        { q:"Fråga 2?", a:""}
+        { q:"Vad heter Ellas NO-lärare?", a:"Christin Falkbrink"}
       ],
       ft: "Sådärja! Gå ner med dina systrar i källaren"
     },
@@ -29,6 +29,7 @@ $(function() {
         { q:"Vad heter de olösliga fibrerna i havre?", a:"Betaglukaner"},
         { q:"Vad heter Frejas sånglärare (för- och efternamn)?", a:"Kinga Szabadvary"},
         { q:"Vem döljer sig här: Jovial N Bössnors?", a:"Lovisa Björnsson"},
+        { q:"Vad heter Ellas NO-lärare?", a:"Christin Falkbrink"},
         { q:"Vilka toner ingår i subdominantackordet i D-dur?", a:"GBD|GHD|G,B,D|G,H,D"},
         { q:"Vad hette Magnus klassföreståndare på högstadiet", a:"Gösta Mjörnman"},
         { q:"Vad heter Selmas mattelärare (för- och efternamn)?", a:"Jan Grzegorz"},
