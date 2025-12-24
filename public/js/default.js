@@ -3,51 +3,83 @@ $(function() {
    var allquestions = {
     Freja : {
       qa:[
-        { q:"Vad heter Selmas mattelärare (för- och efternamn)?", a:"Jan Grzegorz"},
-        { q:"Vad heter Ellas NO-lärare?", a:"Christin Falkbrink"}
+        { q:"Vad är tyska för åskväder?", a:"Donnerwetter"},
+        { q:"Vad hette din mormorsmor i förnamn?", a:"Brita"},
+        { q:"Vad heter den största svarta kråkfågeln?", a:"Korp"},
+        { q:"Skriv de fem första primtalen", a:"2 3 5 7 11|2,3,5,7,11"},
+        { q:"Vem är sötast i familjen Ehlde?", a:"Pappa|Magnus"},
+        { q:"Hur många byte är en kilobyte?", a:"1024"},
+        { q:"Vem har skrivit om tant Brun, tant Grön och tant Gredelin?", a:"Elsa Beskow"},
+        { q:"Om vem skrev Arthur Conan Doyle?", a:"Sherlock Holmes"},
+        { q:"Vilket år föll Berlinmuren?", a:"1989"},
+        { q:"Vad kallas hanen av en hjort?", a:"Hjort"},
+        { q:"Vad mäter man i volt?", a:"Spänning"},
+        { q:"Vad står www för?", a:"World Wide Web"},
+        { q:"Hur många dagar har ett skottår?", a:"366"},
+        { q:"Vad heter Beatles sparkade trummis?", a:"Pete Best"},
+        { q:"Var sätts Kristina från Duvemåla upp nästa gång?", a:"Koblenz "}
       ],
-      ft: "Sådärja! I kartongerna i källaren finns en liten familjepresent. Ta med dina systrar."
+      ft: "Sådärja! Kolla bakom en kudde i en blå soffa."
     },
     Selma : {
       qa:[
-        { q:"Vad heter Frejas sånglärare (för- och efternamn)?", a:"Kinga Szabadvary"},
-        { q:"Vad heter Ellas NO-lärare?", a:"Christin Falkbrink"}
+        { q:"Vad är tyska för åskväder?", a:"Donnerwetter"},
+        { q:"Vad hette din mormorsmor i förnamn?", a:"Brita"},
+        { q:"Vad heter den största svarta kråkfågeln?", a:"Korp"},
+        { q:"Skriv de fem första primtalen", a:"2 3 5 7 11|2,3,5,7,11"},
+        { q:"Vem är sötast i familjen Ehlde?", a:"Pappa|Magnus"},
+        { q:"Hur många byte är en kilobyte?", a:"1024"},
+        { q:"Vem har skrivit om tant Brun, tant Grön och tant Gredelin?", a:"Elsa Beskow"},
+        { q:"Om vem skrev Arthur Conan Doyle?", a:"Sherlock Holmes"},
+        { q:"Vilket år föll Berlinmuren?", a:"1989"},
+        { q:"Vad kallas hanen av en hjort?", a:"Hjort"},
+        { q:"Vad mäter man i volt?", a:"Spänning"},
+        { q:"Vad står www för?", a:"World Wide Web"},
+        { q:"Hur många dagar har ett skottår?", a:"366"},
+        { q:"Vad heter Beatles sparkade trummis?", a:"Pete Best"},
+        { q:"Var sätts Kristina från Duvemåla upp nästa gång?", a:"Koblenz "}
       ],
-      ft: "Sådärja! I kartongerna i källaren finns en liten familjepresent. Ta med dina systrar."
+      ft: "Sådärja! Kolla i pallen i hallen."
     },
-
     Ella : {
       qa:[
-        { q:"Vad heter Selmas mattelärare (för- och efternamn)?", a:"Jan Grzegorz"},
-        { q:"Vad heter Frejas sånglärare (för- och efternamn)?", a:"Kinga Szabadvary"}
+        { q:"Vad är tyska för åskväder?", a:"Donnerwetter"},
+        { q:"Vad hette din mormorsmor i förnamn?", a:"Brita"},
+        { q:"Vad heter den största svarta kråkfågeln?", a:"Korp"},
+        { q:"Skriv de fem första primtalen", a:"2 3 5 7 11|2,3,5,7,11"},
+        { q:"Vem är sötast i familjen Ehlde?", a:"Pappa|Magnus"},
+        { q:"Hur många byte är en kilobyte?", a:"1024"},
+        { q:"Vem har skrivit om tant Brun, tant Grön och tant Gredelin?", a:"Elsa Beskow"},
+        { q:"Om vem skrev Arthur Conan Doyle?", a:"Sherlock Holmes"},
+        { q:"Vilket år föll Berlinmuren?", a:"1989"},
+        { q:"Vad kallas hanen av en hjort?", a:"Hjort"},
+        { q:"Vad mäter man i volt?", a:"Spänning"},
+        { q:"Vad står www för?", a:"World Wide Web"},
+        { q:"Hur många dagar har ett skottår?", a:"366"},
+        { q:"Vad heter Beatles sparkade trummis?", a:"Pete Best"},
+        { q:"Var sätts Kristina från Duvemåla upp nästa gång?", a:"Koblenz "}
       ],
-      ft: "Sådärja! I kartongerna i källaren finns en liten familjepresent. Ta med dina systrar."
+      ft: "Sådärja! Kolla bakom adelgatantavlan."
     },
-
-    Sofia : {
+    Viktor : {
       qa:[
-        { q:"Vad heter de olösliga fibrerna i havre?", a:"Betaglukaner"},
-        { q:"Vad heter Frejas sånglärare (för- och efternamn)?", a:"Kinga Szabadvary"},
-        { q:"Vem döljer sig här: Jovial N Bössnors?", a:"Lovisa Björnsson"},
-        { q:"Vad heter Ellas NO-lärare?", a:"Christin Falkbrink"},
-        { q:"Vilka toner ingår i subdominantackordet i D-dur?", a:"GBD|GHD|G,B,D|G,H,D"},
-        { q:"Vad hette Magnus klassföreståndare på högstadiet", a:"Gösta Mjörnman"},
-        { q:"Vad heter Selmas mattelärare (för- och efternamn)?", a:"Jan Grzegorz"},
-        { q:"I vilken stad bor man på 'The peacock'?", a:"Bath"},
-        { q:"Hur många appar har Ella?", a:"110"},
-        { q:"Vem döljer sig här: Wilma Lundbo Too?", a:"Malin Boultwood"},
-        { q:"Vad heter 'stå på tå' på dansspråk?", a:"Releve"},
-        { q:"Var är bilden tagen?", a:"Skånes djurpark", i:"/gfx/skanes.jpg"},
-        { q:"Var ligger Gallup?", a:"New Mexico"},
-        { q:"Vad kan ersätta fosfat i havredryck?", a:"Omöjligt|Inget|Citrat"},
-        { q:"Vem döljer sig här: Osten i Postern?", a:"Toni Petersson"},
-        { q:"Vilka sitter brevid Selma i Koritsia?", a:"Mathilde och Fanny|Fanny och Mathilde|Mathilde Fanny"},
-        { q:"Hur många byte ingår i en kilobyte?", a:"1024"},
-        { q:"Med vilken ordaccent uttalas senap?", a:"Akut"},
-        { q:"Vilket är Frejas skåpnummer på Kulturama?", a:"4072"},
-        { q:"Vilka ventiler trycker man ner för att spela låga D på trumpet?", a:"13|1,3|1, 3|1 och 3"},
+        { q:"Vad är tyska för åskväder?", a:"Donnerwetter"},
+        { q:"Vad hette Frejas mormorsmor i förnamn?", a:"Brita"},
+        { q:"Vad heter den största svarta kråkfågeln?", a:"Korp"},
+        { q:"Skriv de fem första primtalen", a:"2 3 5 7 11|2,3,5,7,11"},
+        { q:"Vem är sötast i familjen Ehlde?", a:"Pappa|Magnus"},
+        { q:"Hur många byte är en kilobyte?", a:"1024"},
+        { q:"Vem har skrivit om tant Brun, tant Grön och tant Gredelin?", a:"Elsa Beskow"},
+        { q:"Om vem skrev Arthur Conan Doyle?", a:"Sherlock Holmes"},
+        { q:"Vilket år föll Berlinmuren?", a:"1989"},
+        { q:"Vad kallas hanen av en hjort?", a:"Hjort"},
+        { q:"Vad mäter man i volt?", a:"Spänning"},
+        { q:"Vad står www för?", a:"World Wide Web"},
+        { q:"Hur många dagar har ett skottår?", a:"366"},
+        { q:"Vad heter Beatles sparkade trummis?", a:"Pete Best"},
+        { q:"Var sätts Kristina från Duvemåla upp nästa gång?", a:"Koblenz "}
       ],
-      ft: "Grattis! Du klarade det! :-) Skatten finns i TV-soffan!"
+      ft: "Sådärja! Kolla under harpejjin."
     }
   };
 
